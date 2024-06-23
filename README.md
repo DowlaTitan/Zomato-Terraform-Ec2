@@ -29,9 +29,9 @@ Default output format [None]:
 
 # For Version Checking
 
-               pip3 --version
-               terraform version
-               python3 -m awscli --version
+    pip3 --version
+    terraform version
+    python3 -m awscli --version
 
 
 # Practical steps :
