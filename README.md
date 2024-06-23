@@ -2,17 +2,17 @@
 
 # Steps for Install Terraform:
     yum update -y
-               yum install yum-utils -y
-               yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
-               yum install terraform -y
-               terraform version
+    yum install yum-utils -y
+    yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+    yum install terraform -y
+    terraform version
 
 # Steps for Install AWS CLI: 
-               yum update -y
-               yum install python3-pip -y
-               pip3 --version
-               pip3 install awscli --upgrade --user
-               python3 -m awscli --version
+    yum update -y
+    yum install python3-pip -y
+    pip3 --version
+    pip3 install awscli --upgrade --user
+    python3 -m awscli --version
 
 
 # For Configure AWS Accesses: 
