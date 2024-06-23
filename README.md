@@ -1,7 +1,7 @@
 # Zomato-Terraform-Ec2
 
 # Steps for Install Terraform:
-               yum update -y
+yum update -y
                yum install yum-utils -y
                yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
                yum install terraform -y
