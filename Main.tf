@@ -31,9 +31,9 @@ resource "aws_security_group" "Jenkins-sg" {
 
 
 resource "aws_instance" "web" {
-  ami                    = "ami-0f58b397bc5c1f2e8"
-  instance_type          = "t2.medium"
-  key_name               = "AWS-Zomato-Project"
+  ami                    = "ami-0705384c0b33c194c"
+  instance_type          = "t3.medium"
+  key_name               = "CloudGen"
   vpc_security_group_ids = [aws_security_group.Jenkins-sg.id]
   user_data              = templatefile("./install_jenkins.sh", {})
 
